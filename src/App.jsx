@@ -1,12 +1,13 @@
-import viteLogo from "/vite.svg";
-import { useState } from "react";
-
-import reactLogo from "./assets/react.svg";
+import LandingPage from "./pages/LandingPage";
 
 import "./App.css";
 
 function App() {
-  return <h1 className="text-3xl font-bold underline">Marry me Afaq!</h1>;
+  return (
+    <div>
+      <LandingPage />
+    </div>
+  );
 }
 
 export default App;

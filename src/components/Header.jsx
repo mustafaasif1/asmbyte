@@ -1,7 +1,9 @@
-import { useState } from "react";
 import { Dialog } from "@headlessui/react";
 import { Bars3Icon, XMarkIcon } from "@heroicons/react/24/outline";
-import logo from "../assets/logo/png/asm-logo-white.png";
+import { useState } from "react";
+
+import blacklogo from "../assets/logo/png/asm-logo-black.png";
+import whitelogo from "../assets/logo/png/asm-logo-white.png";
 
 const navigation = [
   { name: "Product", href: "#" },
@@ -23,7 +25,7 @@ export const Header = () => {
           <div className="flex lg:flex-1 ">
             <a href="#">
               <span className="sr-only">ASMBYTE</span>
-              <img className="h-40 w-auto" src={logo} alt="" />
+              <img className="h-64 w-auto -mb-10 -mt-10 -ml-5" src={whitelogo} alt="" />
             </a>
           </div>
 
@@ -48,11 +50,7 @@ export const Header = () => {
               </a>
             ))}
           </div>
-          <div className="hidden lg:flex lg:flex-1 lg:justify-end">
-            <a href="#" className="text-sm font-semibold leading-6 text-white">
-              Log in <span aria-hidden="true">&rarr;</span>
-            </a>
-          </div>
+         
         </nav>
         <Dialog
           as="div"
@@ -66,9 +64,11 @@ export const Header = () => {
               <a href="#" className="-m-1.5 p-1.5">
                 <span className="sr-only">Your Company</span>
                 <img
-                  className="h-8 w-auto"
-                  src="https://tailwindui.com/img/logos/mark.svg?color=indigo&shade=600"
+                  className="h-36 w-auto -ml-4 -mb-5 -mt-5"
+                  src={blacklogo}
                   alt=""
+                  // width={200}
+                  // height={200}
                 />
               </a>
               <button
@@ -93,14 +93,7 @@ export const Header = () => {
                     </a>
                   ))}
                 </div>
-                <div className="py-6">
-                  <a
-                    href="#"
-                    className="-mx-3 block rounded-lg px-3 py-2.5 text-base font-semibold leading-7 text-gray-900 hover:bg-gray-50"
-                  >
-                    Log in
-                  </a>
-                </div>
+                
               </div>
             </div>
           </Dialog.Panel>

@@ -1,5 +1,5 @@
 import React from "react";
-import logo from "../assets/logo/png/asm-logo-white.png";
+import whitelogo from "../assets/logo/png/asm-logo-white.png";
 
 export const Footer = () => {
   return (
@@ -29,12 +29,10 @@ export const Footer = () => {
 
         <div class="lg:flex lg:items-end lg:justify-between">
           <div>
-         
             <a href="#">
               <span className="sr-only">ASMBYTE</span>
-              
             </a>
-            <img src={logo} height={150} width={150}/>
+            <img className="h-40 w-auto -mb-16 -mt-10 -ml-5" src={whitelogo} alt="" />
             <p class="mx-auto mt-6 max-w-md text-center leading-relaxed text-gray-500 dark:text-gray-400 lg:text-left">
               Lorem ipsum dolor, sit amet consectetur adipisicing elit. Incidunt
               consequuntur amet culpa cum itaque neque.

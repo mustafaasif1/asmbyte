@@ -16,7 +16,7 @@ export const Services = () => {
 
         <div class="mt-8 grid grid-cols-1 gap-8 md:mt-16 md:grid-cols-2 md:gap-12 lg:grid-cols-3">
           <div class="flex items-start gap-4">
-            <span class="shrink-0 rounded-lg bg-blue-600 p-4">
+            <span class="shrink-0 rounded-lg bg-indigo-600 p-4">
               <svg
                 class="h-5 w-5 text-gray-200"
                 fill="none"
@@ -49,7 +49,7 @@ export const Services = () => {
           </div>
 
           <div class="flex items-start gap-4">
-            <span class="shrink-0 rounded-lg bg-blue-600 p-4">
+            <span class="shrink-0 rounded-lg bg-indigo-600 p-4">
               <svg
                 class="h-5 w-5 text-gray-200"
                 fill="none"
@@ -82,7 +82,7 @@ export const Services = () => {
           </div>
 
           <div class="flex items-start gap-4">
-            <span class="shrink-0 rounded-lg bg-blue-600 p-4">
+            <span class="shrink-0 rounded-lg bg-indigo-600 p-4">
               <svg
                 class="h-5 w-5 text-gray-200"
                 fill="none"

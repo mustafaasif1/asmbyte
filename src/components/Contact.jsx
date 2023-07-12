@@ -2,14 +2,14 @@ import React from "react";
 
 export const Contact = () => {
   return (
-    <section class="bg-gray-100">
-      <div class="mx-auto max-w-screen-xl px-4 py-16 sm:px-6 lg:px-8">
+    <section class="bg-white">
+      <div class="mx-auto max-w-screen-xl px-4 py-20 sm:px-6 lg:px-8">
         <div class="grid grid-cols-1 gap-x-16 gap-y-8 lg:grid-cols-5">
           <div class="lg:col-span-2 lg:py-12">
            
-            <h2 class="text-4xl font-bold tracking-tight sm:text-5xl text-gray-900 p-6">Contact Us</h2>
+            <h2 class="text-4xl font-bold tracking-tight sm:text-5xl text-gray-900 p-6">Contact us</h2>
 
-            <p class="max-w-xl text-lg text-black mx-auto">
+            <p class="max-w-xl lg:text-lg text-md text-gray-600 mx-auto">
               At the same time, the fact that we are wholly owned and totally
               independent from manufacturer and other group control gives you
               confidence that we will only recommend what is right for you.
@@ -20,7 +20,7 @@ export const Contact = () => {
                 0151 475 4450
               </a>
 
-              <address class="mt-2 not-italic text-black">
+              <address class="mt-2 not-italic text-gray-600">
                 282 Kevin Brook, Imogeneborough, CA 58517
               </address>
             </div>
@@ -33,7 +33,7 @@ export const Contact = () => {
                   Name
                 </label>
                 <input
-                  class="w-full rounded-lg border-gray-500 p-3 text-sm bg-gray-200"
+                  class="w-full rounded-lg border-gray-500 p-3 text-sm bg-gray-100 text-black"
                   placeholder="Name"
                   type="text"
                   id="name"
@@ -46,7 +46,7 @@ export const Contact = () => {
                     Email
                   </label>
                   <input
-                    class="w-full rounded-lg border-gray-200 p-3 text-sm bg-gray-200"
+                    class="w-full rounded-lg border-gray-200 p-3 text-sm bg-gray-100 text-black"
                     placeholder="Email address"
                     type="email"
                     id="email"
@@ -58,7 +58,7 @@ export const Contact = () => {
                     Phone
                   </label>
                   <input
-                    class="w-full rounded-lg border-gray-200 p-3 text-sm bg-gray-200"
+                    class="w-full rounded-lg border-gray-200 p-3 text-sm bg-gray-100 text-black"
                     placeholder="Phone Number"
                     type="tel"
                     id="phone"
@@ -72,7 +72,7 @@ export const Contact = () => {
                 </label>
 
                 <textarea
-                  class="w-full rounded-lg border-gray-200 p-3 text-sm bg-gray-200"
+                  class="w-full rounded-lg border-gray-200 p-3 text-sm bg-gray-100 text-black"
                   placeholder="Message"
                   rows="8"
                   id="message"

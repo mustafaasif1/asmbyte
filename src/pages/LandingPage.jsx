@@ -19,9 +19,10 @@ const LandingPage = () => {
       <Services />
       <Feature />
       <Stats />
+      <Contact />
       <CTA />
       {/* <Testimonials /> */}
-      <Contact />
+      
       <Team />
       
      

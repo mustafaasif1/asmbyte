@@ -7,7 +7,7 @@ export const Contact = () => {
         <div class="grid grid-cols-1 gap-x-16 gap-y-8 lg:grid-cols-5">
           <div class="lg:col-span-2 lg:py-12">
            
-            <h2 className="text-4xl font-bold tracking-tight text-white sm:text-5xl text-black p-6">Contact Us</h2>
+            <h2 class="text-4xl font-bold tracking-tight sm:text-5xl text-gray-900 p-6">Contact Us</h2>
 
             <p class="max-w-xl text-lg text-black mx-auto">
               At the same time, the fact that we are wholly owned and totally

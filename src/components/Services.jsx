@@ -41,9 +41,9 @@ export const Services = () => {
               <p class="mt-1 text-sm text-gray-800">
                 Lorem ipsum dolor sit amet consectetur adipisicing elit. Error
                 cumque tempore est ab possimus quisquam reiciendis tempora
-                animi! Quaerat, saepe? Lorem ipsum dolor sit amet consectetur adipisicing elit. Error
-                cumque tempore est. Lorem ipsum dolor sit amet consectetur adipisicing elit. Error
-                cumque tempore est
+                animi! Quaerat, saepe? Lorem ipsum dolor sit amet consectetur
+                adipisicing elit. Error cumque tempore est. Lorem ipsum dolor
+                sit amet consectetur adipisicing elit. Error cumque tempore est
               </p>
             </div>
           </div>
@@ -74,9 +74,8 @@ export const Services = () => {
               <p class="mt-1 text-sm text-gray-800">
                 Lorem ipsum dolor sit amet consectetur adipisicing elit. Error
                 cumque tempore est ab possimus quisquam reiciendis tempora
-                animi! Quaerat, saepe?
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Error
-                cumque tempore est
+                animi! Quaerat, saepe? Lorem ipsum dolor sit amet consectetur
+                adipisicing elit. Error cumque tempore est
               </p>
             </div>
           </div>
@@ -107,11 +106,9 @@ export const Services = () => {
               <p class="mt-1 text-sm text-gray-800">
                 Lorem ipsum dolor sit amet consectetur adipisicing elit. Error
                 cumque tempore est ab possimus quisquam reiciendis tempora
-                animi! Quaerat, saepe?
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Error
-                cumque tempore est
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Error
-                cumque tempore est
+                animi! Quaerat, saepe? Lorem ipsum dolor sit amet consectetur
+                adipisicing elit. Error cumque tempore est Lorem ipsum dolor sit
+                amet consectetur adipisicing elit. Error cumque tempore est
               </p>
             </div>
           </div>

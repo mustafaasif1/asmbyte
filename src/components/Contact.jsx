@@ -26,7 +26,7 @@ export const Contact = () => {
             </div>
           </div>
 
-          <div class="rounded-lg bg-white p-8 shadow-lg lg:col-span-3 lg:p-12">
+          <div class="rounded-lg border border-slate-200 bg-white p-8 shadow-lg lg:col-span-3 lg:p-12">
             <form action="" class="space-y-4">
               <div>
                 <label class="sr-only" for="name">

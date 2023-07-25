@@ -1,7 +1,13 @@
 import React from "react";
+
 import whitelogo from "../assets/logo/png/asm-logo-white.png";
 
 export const Footer = () => {
+
+  const handleScrollToTop = () => {
+    window.scrollTo({ top: 0, behavior: 'smooth'})
+  }
+
   return (
     <footer class="bg-gray-100 dark:bg-gray-900">
       <div class="relative mx-auto max-w-screen-xl px-4 py-16 sm:px-6 lg:px-8 lg:pt-24">
@@ -9,6 +15,7 @@ export const Footer = () => {
           <a
             class="inline-block rounded-full bg-teal-600 p-2 text-white shadow transition hover:bg-teal-500 dark:bg-gray-700 dark:text-teal-300 dark:hover:bg-gray-600 sm:p-3 lg:p-4"
             href="#MainContent"
+            onClick={handleScrollToTop}
           >
             <span class="sr-only">Back to top</span>
 
@@ -32,10 +39,13 @@ export const Footer = () => {
             <a href="#">
               <span className="sr-only">ASMBYTE</span>
             </a>
-            <img className="h-40 w-auto -mb-16 -mt-10 -ml-5" src={whitelogo} alt="" />
+            <img
+              className="h-40 w-auto -mb-16 -mt-10 -ml-5"
+              src={whitelogo}
+              alt=""
+            />
             <p class="mx-auto mt-6 max-w-md text-center leading-relaxed text-gray-500 dark:text-gray-400 lg:text-left">
-              Lorem ipsum dolor, sit amet consectetur adipisicing elit. Incidunt
-              consequuntur amet culpa cum itaque neque.
+              Empowering businesses with unrivaled software solutions. Partner with us for a transformative digital journey.
             </p>
           </div>
 
@@ -79,7 +89,7 @@ export const Footer = () => {
         </div>
 
         <p class="mt-12 text-center text-sm text-gray-500 dark:text-gray-400 lg:text-right">
-          Copyright &copy; 2022. All rights reserved.
+          Copyright &copy; 2023. All rights reserved.
         </p>
       </div>
     </footer>

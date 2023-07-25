@@ -11,23 +11,14 @@ import { Stats } from "../components/Stats";
 import { Team } from "../components/Team";
 import { Testimonials } from "../components/Testimonials";
 
-const LandingPage = () => {
+const ContactUs = () => {
   return (
     <div className="w-screen">
       <Header />
-      <Banner />
-      <Services />
-      <Feature />
-      <Testimonials />
-      
-      
-      {/* <CTA /> */}
-      {/* <Contact /> */}
-      <Stats />
-      <Team />
+      <Contact />
       <Footer />
     </div>
   );
 };
 
-export default LandingPage;
+export default ContactUs;

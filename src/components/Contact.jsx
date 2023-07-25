@@ -3,11 +3,12 @@ import React from "react";
 export const Contact = () => {
   return (
     <section class="bg-white">
-      <div class="mx-auto max-w-screen-xl px-4 py-20 sm:px-6 lg:px-8">
+      <div class="mx-auto max-w-screen-xl px-4 py-16 md:py-32 sm:px-6 lg:px-8">
         <div class="grid grid-cols-1 gap-x-16 gap-y-8 lg:grid-cols-5">
           <div class="lg:col-span-2 lg:py-12">
-           
-            <h2 class="text-4xl font-bold tracking-tight sm:text-5xl text-gray-900 p-6">Contact us</h2>
+            <h2 class="text-4xl font-bold tracking-tight sm:text-5xl text-gray-900 p-6">
+              Contact us
+            </h2>
 
             <p class="max-w-xl lg:text-lg text-md text-gray-600 mx-auto">
               At the same time, the fact that we are wholly owned and totally
@@ -16,13 +17,12 @@ export const Contact = () => {
             </p>
 
             <div class="mt-8">
-              <a href="" class="text-2xl font-bold text-indigo-600">
-                0151 475 4450
+              <a
+                href="mailto:max.mustermann@example.com?body=My custom mail body"
+                class="text-2xl font-bold text-indigo-600"
+              >
+                support@asmbyte.com
               </a>
-
-              <address class="mt-2 not-italic text-gray-600">
-                282 Kevin Brook, Imogeneborough, CA 58517
-              </address>
             </div>
           </div>
 

@@ -4,7 +4,7 @@ export const Services = () => {
   return (
     <section class="bg-white text-black pb-12">
       <div class="py-8 sm:py-12 lg:py-16 px-8 md:px-20 lg:px-48 justify-center">
-        <div class="max-w-xl mx-auto py-16">
+        <div class="max-w-xl mx-auto py-8">
           <h2 class="text-3xl font-bold sm:text-4xl">Our Services</h2>
 
           <p class="mt-4 text-black">
@@ -15,6 +15,12 @@ export const Services = () => {
         </div>
 
         <div class="mt-8 grid grid-cols-1 gap-8 md:mt-16 md:grid-cols-2 md:gap-12 lg:grid-cols-3">
+          
+
+          
+
+          
+
           <div class="flex items-start gap-4">
             <span class="shrink-0 rounded-lg bg-indigo-600 p-4">
               <svg
@@ -42,8 +48,8 @@ export const Services = () => {
                 Lorem ipsum dolor sit amet consectetur adipisicing elit. Error
                 cumque tempore est ab possimus quisquam reiciendis tempora
                 animi! Quaerat, saepe? Lorem ipsum dolor sit amet consectetur
-                adipisicing elit. Error cumque tempore est. Lorem ipsum dolor
-                sit amet consectetur adipisicing elit. Error cumque tempore est
+                adipisicing elit. Error cumque tempore est Lorem ipsum dolor sit
+                amet consectetur adipisicing elit. Error cumque tempore est
               </p>
             </div>
           </div>
@@ -75,7 +81,8 @@ export const Services = () => {
                 Lorem ipsum dolor sit amet consectetur adipisicing elit. Error
                 cumque tempore est ab possimus quisquam reiciendis tempora
                 animi! Quaerat, saepe? Lorem ipsum dolor sit amet consectetur
-                adipisicing elit. Error cumque tempore est
+                adipisicing elit. Error cumque tempore est Lorem ipsum dolor sit
+                amet consectetur adipisicing elit. Error cumque tempore est
               </p>
             </div>
           </div>

@@ -1,17 +1,18 @@
 import React from "react";
 
-import { Contact } from "../components/Contact";
 import { Footer } from "../components/Footer";
 import { Header } from "../components/Header";
 
-const ContactUs = () => {
+const ProductsPage = () => {
   return (
     <div className="w-screen">
       <Header />
-      <Contact />
+      <div className="bg-white py-64">
+        <h1 className="text-black">This is the Products Page</h1>
+      </div>
       <Footer />
     </div>
   );
 };
 
-export default ContactUs;
+export default ProductsPage;

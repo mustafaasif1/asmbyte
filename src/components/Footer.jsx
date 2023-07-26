@@ -1,12 +1,19 @@
 import React from "react";
+import { Link } from "react-router-dom";
 
 import whitelogo from "../assets/logo/png/asm-logo-white.png";
 
-export const Footer = () => {
+const navigation = [
+  { name: "Products", link: "/products" },
+  { name: "Our Values", link: "/values" },
+  { name: "Open Roles", link: "/openroles" },
+  { name: "Blog", link: "/blog" },
+];
 
+export const Footer = () => {
   const handleScrollToTop = () => {
-    window.scrollTo({ top: 0, behavior: 'smooth'})
-  }
+    window.scrollTo({ top: 0, behavior: "smooth" });
+  };
 
   return (
     <footer class="bg-gray-100 dark:bg-gray-900">
@@ -45,46 +52,23 @@ export const Footer = () => {
               alt=""
             />
             <p class="mx-auto mt-6 max-w-md text-center leading-relaxed text-gray-500 dark:text-gray-400 lg:text-left">
-              Empowering businesses with unrivaled software solutions. Partner with us for a transformative digital journey.
+              Empowering businesses with unrivaled software solutions. Partner
+              with us for a transformative digital journey.
             </p>
           </div>
 
           <ul class="mt-12 flex flex-wrap justify-center gap-6 md:gap-8 lg:mt-0 lg:justify-end lg:gap-12">
-            <li>
-              <a
-                class="text-gray-700 transition hover:text-gray-700/75 dark:text-white dark:hover:text-white/75"
-                href="/"
-              >
-                About
-              </a>
-            </li>
-
-            <li>
-              <a
-                class="text-gray-700 transition hover:text-gray-700/75 dark:text-white dark:hover:text-white/75"
-                href="/"
-              >
-                Services
-              </a>
-            </li>
-
-            <li>
-              <a
-                class="text-gray-700 transition hover:text-gray-700/75 dark:text-white dark:hover:text-white/75"
-                href="/"
-              >
-                Projects
-              </a>
-            </li>
-
-            <li>
-              <a
-                class="text-gray-700 transition hover:text-gray-700/75 dark:text-white dark:hover:text-white/75"
-                href="/"
-              >
-                Blog
-              </a>
-            </li>
+            {navigation.map((item) => (
+              <li>
+                <Link
+                  key={item.name}
+                  to={item.link}
+                  class="text-gray-700 transition hover:text-gray-700/75 dark:text-white dark:hover:text-white/75"
+                >
+                  {item.name}
+                </Link>
+              </li>
+            ))}
           </ul>
         </div>
 

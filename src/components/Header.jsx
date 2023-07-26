@@ -1,38 +1,36 @@
 import { Dialog } from "@headlessui/react";
 import { Bars3Icon, XMarkIcon } from "@heroicons/react/24/outline";
 import { useState } from "react";
-import { Route, Link, Routes } from "react-router-dom";
+import { Link } from "react-router-dom";
 
 import blacklogo from "../assets/logo/png/asm-logo-black.png";
 import whitelogo from "../assets/logo/png/asm-logo-white.png";
 
 const navigation = [
-  { name: "Product", href: "#" },
-  { name: "Features", href: "#" },
-  { name: "Marketplace", href: "#" },
-  { name: "Company", href: "#" },
+  { name: "Products", link: "/products" },
+  { name: "Our Values", link: "/values" },
+  { name: "Open Roles", link: "/openroles" },
+  { name: "Blog", link: "/blog" },
 ];
 
 export const Header = () => {
   const [mobileMenuOpen, setMobileMenuOpen] = useState(false);
 
   return (
-    <div className="py-20 bg-gray-900">
+    <div className="py-16 bg-gray-900">
       <header className="absolute inset-x-0 top-0 z-50">
         <nav
-          className="flex items-center justify-between px-10 lg:px-16"
+          className="flex items-center justify-between px-6 md:px-10 lg:px-16"
           aria-label="Global"
         >
-          <div className="flex lg:flex-1 ">
-            <a href="#">
-              <span className="sr-only">ASMBYTE</span>
-              <img
-                className="h-64 w-auto -mb-10 -mt-10 -ml-5"
-                src={whitelogo}
-                alt=""
-              />
-            </a>
-          </div>
+          <Link to="/asmbyte">
+            <span className="sr-only">ASMBYTE</span>
+            <img
+              className="h-64 w-auto -mb-16 -mt-16 -ml-5"
+              src={whitelogo}
+              alt=""
+            />
+          </Link>
 
           <div className="flex lg:hidden">
             <button
@@ -46,13 +44,13 @@ export const Header = () => {
           </div>
           <div className="flex items-center hidden lg:flex lg:gap-x-12">
             {navigation.map((item) => (
-              <a
+              <Link
                 key={item.name}
-                href={item.href}
+                to={item.link}
                 className="text-sm font-semibold leading-6 text-white"
               >
                 {item.name}
-              </a>
+              </Link>
             ))}
 
             <Link to="/contact">
@@ -70,11 +68,11 @@ export const Header = () => {
         >
           <div className="fixed inset-0 z-50" />
           <Dialog.Panel className="fixed inset-y-0 right-0 z-50 w-full overflow-y-auto bg-white px-8 py-10 sm:max-w-sm sm:ring-1 sm:ring-gray-900/10">
-            <div className="flex items-center justify-between pr-2">
+            <div className="flex items-center justify-between">
               <a href="#" className="-m-1.5 p-1.5">
                 <span className="sr-only">Your Company</span>
                 <img
-                  className="h-36 w-auto -ml-4 -mb-5 -mt-5"
+                  className="h-36 w-auto -ml-4 -mb-12 -mt-12"
                   src={blacklogo}
                   alt=""
                   // width={200}
@@ -94,13 +92,13 @@ export const Header = () => {
               <div className="-my-6 divide-y divide-gray-500/10">
                 <div className="space-y-2 py-6">
                   {navigation.map((item) => (
-                    <a
+                    <Link
                       key={item.name}
-                      href={item.href}
+                      to={item.link}
                       className="-mx-3 block rounded-lg px-3 py-2 text-base font-semibold leading-7 text-gray-900 hover:bg-gray-50"
                     >
                       {item.name}
-                    </a>
+                    </Link>
                   ))}
                   <div class="py-7">
                     <Link

@@ -8,114 +8,73 @@ export const Services = () => {
           <h2 class="text-3xl font-bold sm:text-4xl">Our Services</h2>
 
           <p class="mt-4 text-black">
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellat
-            dolores iure fugit totam iste obcaecati. Consequatur ipsa quod ipsum
-            sequi culpa delectus, cumque id tenetur quibusdam, quos fuga minima.
+            Join us on a transformative journey, where technology knows no
+            bounds, and together, we'll shape the digital future you envision.
+            Let ASMByte be your partner in progress, delivering excellence in
+            every step of your digital evolution.
           </p>
         </div>
 
         <div class="mt-8 grid grid-cols-1 gap-8 md:mt-16 md:grid-cols-2 md:gap-12 lg:grid-cols-3">
-          
-
-          
-
-          
-
           <div class="flex items-start gap-4">
-            <span class="shrink-0 rounded-lg bg-indigo-600 p-4">
-              <svg
-                class="h-5 w-5 text-gray-200"
-                fill="none"
-                stroke="currentColor"
-                viewBox="0 0 24 24"
-                xmlns="http://www.w3.org/2000/svg"
-              >
-                <path d="M12 14l9-5-9-5-9 5 9 5z"></path>
-                <path d="M12 14l6.16-3.422a12.083 12.083 0 01.665 6.479A11.952 11.952 0 0012 20.055a11.952 11.952 0 00-6.824-2.998 12.078 12.078 0 01.665-6.479L12 14z"></path>
-                <path
-                  stroke-linecap="round"
-                  stroke-linejoin="round"
-                  stroke-width="2"
-                  d="M12 14l9-5-9-5-9 5 9 5zm0 0l6.16-3.422a12.083 12.083 0 01.665 6.479A11.952 11.952 0 0012 20.055a11.952 11.952 0 00-6.824-2.998 12.078 12.078 0 01.665-6.479L12 14zm-4 6v-7.5l4-2.222"
-                ></path>
-              </svg>
+            <span class="shrink-0 rounded-lg bg-blue-700 p-4">
+              <i className="h-5 w-5  fas fa-globe-americas text-gray-200"></i>
             </span>
-
             <div>
-              <h2 class="text-lg font-bold">Lorem, ipsum dolor.</h2>
+              <h2 class="text-lg font-bold">
+                Cutting-Edge Web Applications: Elevate Your Online Presence
+              </h2>
 
               <p class="mt-1 text-sm text-gray-800">
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Error
-                cumque tempore est ab possimus quisquam reiciendis tempora
-                animi! Quaerat, saepe? Lorem ipsum dolor sit amet consectetur
-                adipisicing elit. Error cumque tempore est Lorem ipsum dolor sit
-                amet consectetur adipisicing elit. Error cumque tempore est
+                Our web applications are crafted with precision, blending
+                stunning design with seamless functionality. Whether you need a
+                corporate website, e-commerce platform, or a custom solution,
+                our team leverages the latest technologies to deliver a
+                user-centric experience that captivates your audience and drives
+                results.
               </p>
             </div>
           </div>
 
           <div class="flex items-start gap-4">
-            <span class="shrink-0 rounded-lg bg-indigo-600 p-4">
-              <svg
-                class="h-5 w-5 text-gray-200"
-                fill="none"
-                stroke="currentColor"
-                viewBox="0 0 24 24"
-                xmlns="http://www.w3.org/2000/svg"
-              >
-                <path d="M12 14l9-5-9-5-9 5 9 5z"></path>
-                <path d="M12 14l6.16-3.422a12.083 12.083 0 01.665 6.479A11.952 11.952 0 0012 20.055a11.952 11.952 0 00-6.824-2.998 12.078 12.078 0 01.665-6.479L12 14z"></path>
-                <path
-                  stroke-linecap="round"
-                  stroke-linejoin="round"
-                  stroke-width="2"
-                  d="M12 14l9-5-9-5-9 5 9 5zm0 0l6.16-3.422a12.083 12.083 0 01.665 6.479A11.952 11.952 0 0012 20.055a11.952 11.952 0 00-6.824-2.998 12.078 12.078 0 01.665-6.479L12 14zm-4 6v-7.5l4-2.222"
-                ></path>
-              </svg>
+            <span class="shrink-0 rounded-lg bg-blue-700 p-4">
+              <i className="h-5 w-5 fas fa-mobile-alt text-gray-200"></i>
             </span>
 
             <div>
-              <h2 class="text-lg font-bold">Lorem, ipsum dolor.</h2>
+              <h2 class="text-lg font-bold">
+                Next-Generation Mobile Applications: Transforming the Way You
+                Connect
+              </h2>
 
               <p class="mt-1 text-sm text-gray-800">
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Error
-                cumque tempore est ab possimus quisquam reiciendis tempora
-                animi! Quaerat, saepe? Lorem ipsum dolor sit amet consectetur
-                adipisicing elit. Error cumque tempore est Lorem ipsum dolor sit
-                amet consectetur adipisicing elit. Error cumque tempore est
+                Step into the mobile-first world with our bespoke mobile
+                applications. From iOS to Android and cross-platform solutions,
+                we build apps that seamlessly integrate into users' lives,
+                combining intuitive interfaces with powerful features. Let us
+                help you create a lasting impression and stay ahead in the
+                competitive app market.
               </p>
             </div>
           </div>
 
           <div class="flex items-start gap-4">
-            <span class="shrink-0 rounded-lg bg-indigo-600 p-4">
-              <svg
-                class="h-5 w-5 text-gray-200"
-                fill="none"
-                stroke="currentColor"
-                viewBox="0 0 24 24"
-                xmlns="http://www.w3.org/2000/svg"
-              >
-                <path d="M12 14l9-5-9-5-9 5 9 5z"></path>
-                <path d="M12 14l6.16-3.422a12.083 12.083 0 01.665 6.479A11.952 11.952 0 0012 20.055a11.952 11.952 0 00-6.824-2.998 12.078 12.078 0 01.665-6.479L12 14z"></path>
-                <path
-                  stroke-linecap="round"
-                  stroke-linejoin="round"
-                  stroke-width="2"
-                  d="M12 14l9-5-9-5-9 5 9 5zm0 0l6.16-3.422a12.083 12.083 0 01.665 6.479A11.952 11.952 0 0012 20.055a11.952 11.952 0 00-6.824-2.998 12.078 12.078 0 01.665-6.479L12 14zm-4 6v-7.5l4-2.222"
-                ></path>
-              </svg>
+            <span class="shrink-0 rounded-lg bg-blue-700 p-4">
+            <i className="h-5 w-5 fas fa-chart-line text-gray-200"></i>
             </span>
 
             <div>
-              <h2 class="text-lg font-bold">Lorem, ipsum dolor.</h2>
+              <h2 class="text-lg font-bold">
+                Data-Driven Projects: Unleashing Insights for Success
+              </h2>
 
               <p class="mt-1 text-sm text-gray-800">
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Error
-                cumque tempore est ab possimus quisquam reiciendis tempora
-                animi! Quaerat, saepe? Lorem ipsum dolor sit amet consectetur
-                adipisicing elit. Error cumque tempore est Lorem ipsum dolor sit
-                amet consectetur adipisicing elit. Error cumque tempore est
+                Our data science projects are driven by insights that fuel
+                business growth. From predictive analytics to machine learning
+                solutions, we transform raw data into actionable intelligence,
+                enabling you to make informed decisions and drive innovation.
+                Embrace the power of data and unlock the full potential of your
+                organization.
               </p>
             </div>
           </div>

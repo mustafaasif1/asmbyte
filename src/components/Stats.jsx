@@ -1,5 +1,5 @@
 import { useEffect } from "react";
-import { Link, useLocation  } from "react-router-dom";
+import { Link, useLocation } from "react-router-dom";
 
 const links = [
   { name: "Open roles", to: "/openroles" },
@@ -7,7 +7,6 @@ const links = [
 ];
 
 export const Stats = () => {
-
   return (
     <div className="relative isolate overflow-hidden bg-gray-900 py-24 sm:py-32 flex">
       <img
@@ -45,14 +44,15 @@ export const Stats = () => {
             Work with us
           </h2>
           <p className="mt-6 text-lg leading-8 text-gray-300">
-            Anim aute id magna aliqua ad ad non deserunt sunt. Qui irure qui
-            lorem cupidatat commodo. Elit sunt amet fugiat veniam occaecat
-            fugiat aliqua. Anim aute id magna aliqua ad ad non deserunt sunt.
-            Qui irure qui lorem cupidatat commodo.
+            Joining our team means being part of a dynamic environment that
+            fosters creativity, embraces diversity, and encourages personal and
+            professional growth. We believe in empowering our team members to
+            push the boundaries of what's possible, making a real impact on
+            businesses and lives worldwide
           </p>
         </div>
         <div className="mx-auto mt-10 max-w-2xl lg:mx-0 lg:max-w-none">
-          <div className="flecx justify-center grid grid-cols-1 gap-x-8 gap-y-6 text-base font-semibold leading-7 text-white sm:grid-cols-2 md:flex lg:gap-x-10">
+          <div className="flec justify-center grid grid-cols-1 gap-x-8 gap-y-6 text-base font-semibold leading-7 text-white sm:grid-cols-2 md:flex lg:gap-x-10">
             {links.map((link) => (
               <Link key={link.name} to={link.to}>
                 {link.name} <span aria-hidden="true">&rarr;</span>

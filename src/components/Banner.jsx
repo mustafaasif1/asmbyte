@@ -3,16 +3,16 @@ import React from "react";
 export const Banner = () => {
   return (
     <section class="bg-gray-900 text-white">
-      <div class="mx-auto max-w-screen-xl px-4 py-12 flex items-center">
+      <div class="mx-auto max-w-screen-xl px-4 pt-12 pb-20 flex items-center">
         <div class="mx-auto max-w-3xl text-center py-20">
           <h1 class="bg-gradient-to-r from-green-300 via-blue-500 to-purple-600 bg-clip-text text-3xl font-extrabold text-transparent sm:text-5xl">
-            Understand User Flow.
-            <span class="sm:block"> Increase Conversion. </span>
+            Elevate User Experience.
+            <span class="sm:block"> Maximize Success.</span>
           </h1>
 
           <p class="mx-auto mt-4 max-w-xl sm:text-xl/relaxed">
-            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nesciunt
-            illo tenetur fuga ducimus numquam ea!
+            Empowering Your Digital Future with Cutting-Edge Web Applications,
+            Mobile Apps, and Data-Driven Projects.
           </p>
         </div>
       </div>

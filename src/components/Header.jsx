@@ -54,7 +54,7 @@ export const Header = () => {
             ))}
 
             <Link to="/contact">
-              <a class="block w-full rounded border border-blue-600 bg-blue-600 px-6 py-3 text-sm font-medium text-white hover:bg-transparent hover:text-white focus:outline-none focus:ring active:text-opacity-75 sm:w-auto">
+              <a class="block w-full rounded border border-blue-700 bg-blue-700 px-6 py-3 text-sm font-medium text-white hover:bg-transparent hover:text-white focus:outline-none focus:ring active:text-opacity-75 sm:w-auto">
                 Contact us
               </a>
             </Link>

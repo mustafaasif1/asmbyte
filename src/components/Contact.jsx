@@ -19,21 +19,21 @@ export const Contact = () => {
             <div class="mt-8">
               <a
                 href="mailto:max.mustermann@example.com?body=My custom mail body"
-                class="text-2xl font-bold text-indigo-600"
+                class="text-2xl font-bold text-blue-700"
               >
                 support@asmbyte.com
               </a>
             </div>
           </div>
 
-          <div class="rounded-lg border border-slate-200 bg-white p-8 shadow-lg lg:col-span-3 lg:p-12">
+          <div class="rounded-lg border-slate-500 bg-gray-200 p-8 shadow-lg lg:col-span-3 lg:p-12">
             <form action="" class="space-y-4">
               <div>
                 <label class="sr-only" for="name">
                   Name
                 </label>
                 <input
-                  class="w-full rounded-lg border-gray-500 p-3 text-sm bg-gray-100 text-black"
+                  class="border w-full rounded-lg border-gray-300 p-3 text-sm bg-gray-100 text-black"
                   placeholder="Name"
                   type="text"
                   id="name"
@@ -46,7 +46,7 @@ export const Contact = () => {
                     Email
                   </label>
                   <input
-                    class="w-full rounded-lg border-gray-200 p-3 text-sm bg-gray-100 text-black"
+                    class="border w-full rounded-lg border-gray-300 p-3 text-sm bg-gray-100 text-black"
                     placeholder="Email address"
                     type="email"
                     id="email"
@@ -58,7 +58,7 @@ export const Contact = () => {
                     Phone
                   </label>
                   <input
-                    class="w-full rounded-lg border-gray-200 p-3 text-sm bg-gray-100 text-black"
+                    class="border w-full rounded-lg border-gray-300 p-3 text-sm bg-gray-100 text-black"
                     placeholder="Phone Number"
                     type="tel"
                     id="phone"
@@ -72,7 +72,7 @@ export const Contact = () => {
                 </label>
 
                 <textarea
-                  class="w-full rounded-lg border-gray-200 p-3 text-sm bg-gray-100 text-black"
+                  class="border w-full rounded-lg border-gray-300 p-3 text-sm bg-gray-100 text-black"
                   placeholder="Message"
                   rows="8"
                   id="message"
